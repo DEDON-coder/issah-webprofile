@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Issah Mohammed, an IT professional and digital product developer." />
+  <title>Issah Mohammed | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="#home" aria-label="Issah Mohammed home">
+        <span class="brand-mark">IM</span>
+        <span class="brand-copy">Issah <strong>Mohammed</strong></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" onclick="document.body.classList.toggle('nav-open')">☰</button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-button" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-pattern"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Available for digital projects</p>
+          <h1>Building smart digital solutions with <em>purpose.</em></h1>
+          <p class="hero-intro">
+            Hello, I’m <strong>Issah Mohammed</strong>—an IT professional and creative developer focused on responsive websites, useful applications and clear digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Projects</a>
+            <a class="button button-outline" href="#contact">Let’s Connect</a>
+          </div>
+          <div class="quick-info">
+            <div><span>Focus</span><strong>Web & Mobile</strong></div>
+            <div><span>Approach</span><strong>Simple & Practical</strong></div>
+            <div><span>Location</span><strong>Ghana</strong></div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="image-shell">
+            <img src="images/issah-profile.jpg" alt="Issah Mohammed profile portrait" />
+          </div>
+          <div class="experience-card">
+            <strong>IT</strong>
+            <span>Solutions<br />Developer</span>
+          </div>
+          <div class="code-card" aria-hidden="true">
+            <span>&lt;developer&gt;</span>
+            <strong>ideas → solutions</strong>
+            <span>&lt;/developer&gt;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-title-block">
+          <span class="section-label">01 / About</span>
+          <h2>Technology should make life easier—not more complicated.</h2>
+        </div>
+        <div class="about-content">
+          <p class="lead">I enjoy turning ideas into organized, attractive and user-friendly digital products.</p>
+          <p>My work combines visual design, front-end development, structured thinking and a strong interest in solving practical problems. I pay attention to clarity, responsiveness and the small details that help users feel comfortable.</p>
+          <p>I am continuously learning and improving my skills while building projects that demonstrate what I can do.</p>
+          <a class="arrow-link" href="#projects">Explore selected work <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">02 / Expertise</span>
+            <h2>What I bring to each project.</h2>
+          </div>
+          <p>A balanced combination of technical ability, design awareness and clear communication.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>Front-End Development</h3>
+            <p>Responsive and accessible interfaces built with clean HTML, CSS and modern layout techniques.</p>
+            <ul><li>HTML5</li><li>CSS3</li><li>Responsive Design</li></ul>
+          </article>
+          <article class="skill-card featured-skill">
+            <span class="skill-icon">◫</span>
+            <h3>UI & Product Design</h3>
+            <p>Clear visual hierarchy, thoughtful content organization and interfaces designed around user needs.</p>
+            <ul><li>Wireframes</li><li>Interface Design</li><li>Prototyping</li></ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Data & Problem Solving</h3>
+            <p>Structured thinking for databases, project organization and practical technology solutions.</p>
+            <ul><li>SQL</li><li>Data Structure</li><li>Documentation</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <div>
+            <span class="section-label">03 / Portfolio</span>
+            <h2>Selected projects.</h2>
+          </div>
+          <p>Open any project to read its full profile, features, design approach and feedback.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-wide">
+            <a class="project-visual" href="projects/portfolio.html">
+              <img src="images/project-portfolio.jpg" alt="Portfolio website project" />
+              <span class="view-circle">View</span>
+            </a>
+            <div class="project-info"><span>01 • Web Design</span><h3><a href="projects/portfolio.html">Personal Portfolio Website</a></h3><p>A professional online identity designed to communicate skills, experience and project value.</p></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual" href="projects/ecommerce.html"><img src="images/project-ecommerce.jpg" alt="E-commerce project" /><span class="view-circle">View</span></a>
+            <div class="project-info"><span>02 • E-commerce</span><h3><a href="projects/ecommerce.html">Online Shopping Platform</a></h3><p>A responsive shopping interface with product discovery, promotions and mobile-friendly navigation.</p></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual" href="projects/mobile.html"><img src="images/project-mobile.jpg" alt="Mobile application project" /><span class="view-circle">View</span></a>
+            <div class="project-info"><span>03 • Mobile Product</span><h3><a href="projects/mobile.html">MarketHub Mobile App</a></h3><p>A polished mobile commerce concept featuring shopping, tracking and customer support experiences.</p></div>
+          </article>
+
+          <article class="project-card project-wide">
+            <a class="project-visual" href="projects/learning.html"><img src="images/project-learning.jpg" alt="Online learning platform project" /><span class="view-circle">View</span></a>
+            <div class="project-info"><span>04 • Education Technology</span><h3><a href="projects/learning.html">Online Learning Platform</a></h3><p>A learner-focused dashboard for courses, progress, schedules and achievements.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div><span class="section-label light">04 / Contact</span><h2>Have a project or opportunity in mind?</h2><p>Let’s discuss how technology and thoughtful design can bring your idea to life.</p></div>
+        <div class="contact-buttons">
+          <a class="button button-light" href="mailto:your-email@example.com">Email Issah</a>
+          <a class="button button-outline-light" href="https://github.com/" target="_blank" rel="noopener">GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row"><p>© 2026 Issah Mohammed. Built with HTML & CSS.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
